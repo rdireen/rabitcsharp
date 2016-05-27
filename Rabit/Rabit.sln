@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabit", "Rabit.csproj", "{BD9F86E8-E7FC-48F5-9421-A17DB0D8CD01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabitUnitTests", "..\RabitUnitTests\RabitUnitTests.csproj", "{E3B76175-3C19-41EB-ADAD-3C286BEA0D7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabitDemos", "RabitDemos", "{EF21530D-C8FA-41D4-AF6E-877CC054099E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabitHelloWorld", "..\RabitDemos\HelloWorld\RabitHelloWorld.csproj", "{2CC4CFD2-ED05-4B9E-BDF1-D8B7F1158520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabitReadPrintDemo", "..\RabitDemos\RabitReadPrintDemo\RabitReadPrintDemo.csproj", "{BC305ABF-2001-4CCB-9B21-E7E7A716F032}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CC4CFD2-ED05-4B9E-BDF1-D8B7F1158520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC4CFD2-ED05-4B9E-BDF1-D8B7F1158520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC4CFD2-ED05-4B9E-BDF1-D8B7F1158520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC4CFD2-ED05-4B9E-BDF1-D8B7F1158520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC305ABF-2001-4CCB-9B21-E7E7A716F032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC305ABF-2001-4CCB-9B21-E7E7A716F032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC305ABF-2001-4CCB-9B21-E7E7A716F032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC305ABF-2001-4CCB-9B21-E7E7A716F032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD9F86E8-E7FC-48F5-9421-A17DB0D8CD01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9F86E8-E7FC-48F5-9421-A17DB0D8CD01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9F86E8-E7FC-48F5-9421-A17DB0D8CD01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9F86E8-E7FC-48F5-9421-A17DB0D8CD01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3B76175-3C19-41EB-ADAD-3C286BEA0D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B76175-3C19-41EB-ADAD-3C286BEA0D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B76175-3C19-41EB-ADAD-3C286BEA0D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B76175-3C19-41EB-ADAD-3C286BEA0D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CC4CFD2-ED05-4B9E-BDF1-D8B7F1158520} = {EF21530D-C8FA-41D4-AF6E-877CC054099E}
+		{BC305ABF-2001-4CCB-9B21-E7E7A716F032} = {EF21530D-C8FA-41D4-AF6E-877CC054099E}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		description = @Rabit Multi-Threaded Manager System\nDireenTech Inc.
+		version = 1.0
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
